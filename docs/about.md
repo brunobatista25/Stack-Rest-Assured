@@ -1,1 +1,1 @@
-# About Stack-Rest-Assured stack
+# About stack-rest-assured stack

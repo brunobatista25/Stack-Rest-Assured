@@ -1,0 +1,25 @@
+name: template-rest-assured-java
+description: Template para gerar um projeto de testes backend com rest assured e java.
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
+  - label: Digite o nome do pacote
+    type: text
+    name: package_name
+    default: br.com.testback
+    required: true
+    global: true
+
+hooks:
+  - type: run
+    trigger: after-render
+    linux:
+      - mvn clean install -DskipTests=true
+    windows:
+      - cmd /C mvn clean install -DskipTests=true
+    mac:
+      - mvn clean install -DskipTests=true

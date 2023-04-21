@@ -1,14 +1,5 @@
 type: app
-description: Default stackfile usecase description
+description: Stack sobre automação com rest assured
 # template used to create the project
-template: Stack-Rest-Assured/<template-name>
-inputs:
-  some_input: value
-# list of plugins to be applied after project creation
-plugins:
-  - plugin: Stack-Rest-Assured/<plugin-name>
-    inputs:
-      some_input: value
-      some_list:
-        - item1
-        - item2
+template: stack-rest-assured/<template-name>
+
