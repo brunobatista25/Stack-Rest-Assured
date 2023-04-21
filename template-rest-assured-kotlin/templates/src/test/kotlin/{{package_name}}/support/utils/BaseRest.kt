@@ -2,9 +2,7 @@ package {{package_name}}.support.utils
 
 import io.restassured.specification.RequestSpecification
 import io.restassured.RestAssured
-import {{package_name}}.support.utils.BaseRest
 import io.restassured.response.Response
-import io.restassured.response.ValidatableResponse
 
 object BaseRest {
     private var request: RequestSpecification? = null
