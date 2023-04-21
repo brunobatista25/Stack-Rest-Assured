@@ -10,7 +10,4 @@ technologies:
   - Java
   - Kotlin
 about: docs/about.md
-use-cases:
-  - title: Use Case Title
-    content: docs/use-case.md
-    stackfile: stackfiles/default.yaml
+
