@@ -1,12 +1,12 @@
-package {{packame_name}}.tests;
+package {{package_name}}.tests;
 
 import com.github.javafaker.Faker;
 import io.restassured.response.ValidatableResponse;
 import org.junit.Test;
 
-import static {{packame_name}}.service.UserService.*;
-import static {{packame_name}}.support.utils.BaseRest.*;
-import static {{packame_name}}.support.utils.GetVariable.getProp;
+import static {{package_name}}.service.UserService.*;
+import static {{package_name}}.support.utils.BaseRest.*;
+import static {{package_name}}.support.utils.GetVariable.getProp;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 

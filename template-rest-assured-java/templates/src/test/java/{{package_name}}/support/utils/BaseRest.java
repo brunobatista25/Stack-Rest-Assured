@@ -1,4 +1,4 @@
-package{{packame_name}}.support.utils;
+package{{package_name}}.support.utils;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;

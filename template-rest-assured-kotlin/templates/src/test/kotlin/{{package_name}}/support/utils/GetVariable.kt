@@ -1,7 +1,7 @@
-package {{packame_name}}.support.utils
+package {{package_name}}.support.utils
 
 import java.util.Properties
-import {{packame_name}}.support.utils.GetVariable
+import {{package_name}}.support.utils.GetVariable
 import java.io.FileInputStream
 import java.io.IOException
 

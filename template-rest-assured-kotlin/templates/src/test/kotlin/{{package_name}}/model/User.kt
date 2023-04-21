@@ -1,4 +1,4 @@
-package {{packame_name}}.model
+package {{package_name}}.model
 
 class User(var nome: String, var email: String, var password: String, var administrador: String) {
 

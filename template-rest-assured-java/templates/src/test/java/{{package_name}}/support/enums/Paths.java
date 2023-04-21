@@ -1,6 +1,6 @@
-package {{packame_name}}.support.enums;
+package {{package_name}}.support.enums;
 
-import static{{packame_name}}.support.utils.GetVariable.getProp;
+import static{{package_name}}.support.utils.GetVariable.getProp;
 
 public enum Paths {
     BASE_URL(getProp("BaseUrl")),

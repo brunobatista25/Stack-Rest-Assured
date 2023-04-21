@@ -1,6 +1,6 @@
-package {{packame_name}};
+package {{package_name}};
 
-import {{packame_name}}.tests.CreateUserTests;
+import {{package_name}}.tests.CreateUserTests;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 

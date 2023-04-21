@@ -1,8 +1,8 @@
-package {{packame_name}}.service
+package {{package_name}}.service
 
-import {{packame_name}}.model.User
-import {{packame_name}}.support.enums.Paths
-import {{packame_name}}.support.utils.BaseRest
+import {{package_name}}.model.User
+import {{package_name}}.support.enums.Paths
+import {{package_name}}.support.utils.BaseRest
 import java.util.HashMap
 
 object UserService {

@@ -1,12 +1,12 @@
-package {{packame_name}}.tests
+package {{package_name}}.tests
 
-import {{packame_name}}.service.UserService.createUser
+import {{package_name}}.service.UserService.createUser
 import io.restassured.response.ValidatableResponse
 import com.github.javafaker.Faker
 import org.junit.Assert
 import org.junit.Test
-import {{packame_name}}.support.utils.BaseRest.response
-import {{packame_name}}.support.utils.GetVariable.getProp
+import {{package_name}}.support.utils.BaseRest.response
+import {{package_name}}.support.utils.GetVariable.getProp
 
 class CreateUserTests {
     var responseRequest: ValidatableResponse? = null

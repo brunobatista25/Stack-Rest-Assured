@@ -1,4 +1,4 @@
-package {{packame_name}}.model;
+package {{package_name}}.model;
 
 public class User {
     private String nome;
